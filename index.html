@@ -1,0 +1,15 @@
+---
+layout: default
+title: Test page
+---
+<h1>{{ page.title | downcase }}</h1>
+
+{% highlight ruby %}
+def foo
+puts 'foo'
+end
+{% endhighlight %}
+
+<a href="{% link test-markdown.md %}">Test</a>
+
+<span class="current">Should be green!</span>

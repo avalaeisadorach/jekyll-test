@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Test Markdown
+  link: /test-markdown.html
+- name: Blog Posts
+  link: /blog.html
